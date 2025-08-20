@@ -6,3 +6,6 @@ Turn raw comments/surveys into business-ready insights for product, marketing, a
 
 1) Problem & Data
 Goal: Convert unstructured text (surveys, app store, Reddit/Twitter, support tickets) into sentiment, topics, and actionable insights (e.g., “Sustainability is a top driver; fit comfort is a recurring pain point.”).
+## 🚀 Try the Data Dashboard
+👉 [Launch Interactive Sentiment Explorer](https://claude.ai/public/artifacts/ee564902-bee7-4b83-9f54-db3b80cb9abe)
+
