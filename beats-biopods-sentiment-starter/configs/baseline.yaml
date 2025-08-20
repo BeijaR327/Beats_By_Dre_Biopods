@@ -1,0 +1,23 @@
+# configs/baseline.yaml
+paths:
+  input_csv: data/feedback_sample.csv
+  figs_dir: reports/figs
+  summary_md: reports/summary.md
+  model_dir: models
+
+preprocess:
+  lowercase: true
+  strip_punct: true
+  remove_stopwords: true
+  lemmatize: true
+  keep_mentions_hashtags: true
+
+sentiment:
+  use_vader: true
+  use_supervised: true   # requires label column present
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+keywords:
+  top_k: 20
